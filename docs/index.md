@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This collection of documents is primarily aimed at Software Developers building software on the podcast ecosystem.
 
-## Commands
+It is being written at the moment to support the development of [podStation](https://podstation.github.io/), but it is aimed as a general resource, not only targeting podcast clients (also known as aggregators).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!! Warning
+    This content does not contain a Licence at the moment, as I have not decided which one to use yet.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    I am leaning towards MIT. Suggestions and feedback is welcome.
