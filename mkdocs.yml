@@ -3,6 +3,7 @@ theme:
   name: material 
   features:
     - navigation.tabs
+    - navigation.indexes
 markdown_extensions:
   - footnotes
   # https://github.com/squidfunk/mkdocs-material/issues/693#issuecomment-632044306
@@ -20,5 +21,5 @@ nav:
   - 'Documentation':
     - 'Monetization':
       - 'Lightning Network':
-        - Overview: monetization-lightning/overview.md
+        - monetization-lightning/index.md
         - monetization-lightning/data-models.md

@@ -4,13 +4,23 @@ Lightning Network is a _Layer 2_ payment protocol that works on top of blockchai
 
 Lightning currently supports Bitcoin and Litecoin as currencies, but Bitcoin has a higher adoption.
 
-As part of the _Podcasting 2.0_ initiative, monetization based on the Lightning Network was proposed.
+As part of the [Podcasting 2.0](https://github.com/Podcastindex-org/podcast-namespace/blob/main/podcasting2.0.md) initiative, monetization based on the Lightning Network was proposed.
 
 [^lightning-network-wikipedia]: [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network) - Wikipedia Article
 
 ## Status
 
 Although it is already supported by a number of hosting platforms and applications, monetization with Lightning Network is still considered **experimental**.
+
+## Use cases
+
+Monetization with Lightning Network, at its current state, is used only for the _value for value_ model.
+
+In this model, listeners decide how much (monetary) value the listening experience has.
+
+Users typically pledge to pay a certain amount for the time listened for each podcast, normally expressed in _satoshis[^satoshi] per minute_.
+
+[^satoshi]: 1 Satoshi = 1/100 000 000 Bitcoins, it is the smallest bitcoin unit that can be represented in the bitcoin network ledger. Reference: [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin#Units_and_divisibility) Wikipedia Article, section _Units and divisibility_
 
 ## Advantages
 
@@ -31,4 +41,4 @@ Exchanging _fiat money_ into crypto currencies and allocating the crypto in the 
 
 ## Specification
 
-The specification for monetization with is covered in the specification for the `podcast:value` tag of the _podcast namespace_. This specification can be found [here](https://github.com/Podcastindex-org/podcast-namespace/blob/main/value/value.md).
+The specification for monetization with Lightning Network is covered in the specification for the `podcast:value` tag of the _podcast namespace_. This specification can be found [here](https://github.com/Podcastindex-org/podcast-namespace/blob/main/value/value.md).
