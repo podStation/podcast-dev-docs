@@ -24,4 +24,5 @@ nav:
     - 'Monetization':
       - 'Lightning Network':
         - monetization-lightning/index.md
+        - monetization-lightning/agents.md
         - monetization-lightning/data-models.md
